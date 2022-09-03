@@ -71,7 +71,7 @@ body {
 }
 
 .bg-black {
-    background-color: #000 !important;
+    background: #000 !important;
 }
 
 .overlay {
@@ -256,13 +256,13 @@ input[name='q']::placeholder {
     }
 }
 
-/* pad the top a bit when the navbar is collapsed on mobile */
+/* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
     }
 
-    .body {
+    body {
         height: calc(100vh - 116px);
     }
 }
